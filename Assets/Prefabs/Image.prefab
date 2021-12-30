@@ -107,6 +107,7 @@ MonoBehaviour:
   sprites4: {fileID: 21300000, guid: 5d93e5000c7fc2f49abd2d42171be1c6, type: 3}
   sprites5: {fileID: 21300000, guid: 3efddb83819a474439ef3aeae2689004, type: 3}
   sprites6: {fileID: 21300000, guid: 639bfa1617c8d4c4aa092f330657ab94, type: 3}
+  sprites7: {fileID: 21300000, guid: 2bd92d6d1f919e44a82aa9f5aa10a156, type: 3}
 --- !u!65 &840058077213753408
 BoxCollider:
   m_ObjectHideFlags: 0

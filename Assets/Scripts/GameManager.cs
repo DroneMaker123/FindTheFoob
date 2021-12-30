@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
 
             if (activeTimer) //countdown flag
             {
-               // timeRemaining -= Time.deltaTime;  //TIME DISABLED
+                timeRemaining -= Time.deltaTime;  //TIME ENABLED
             }
             if (timeRemaining <= 0)
             {
@@ -138,7 +138,8 @@ public class GameManager : MonoBehaviour
                             if (x == randomOriginalx && y == randomOriginaly)
                             {
                                 Created.transform.tag = "Original";
-                                Created.ChangeSprite(0);
+                                if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                                else Created.ChangeSprite(0);
                             }
                             else
                             {
@@ -161,7 +162,8 @@ public class GameManager : MonoBehaviour
                             if (x == randomOriginalx && y == randomOriginaly)
                             {
                                 Created.transform.tag = "Original";
-                                Created.ChangeSprite(0);
+                                if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                                else Created.ChangeSprite(0);
                             }
                             else
                             {
@@ -184,7 +186,8 @@ public class GameManager : MonoBehaviour
                             if (x == randomOriginalx && y == randomOriginaly)
                             {
                                 Created.transform.tag = "Original";
-                                Created.ChangeSprite(0);
+                                if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                                else Created.ChangeSprite(0);
                             }
                             else
                             {
@@ -207,7 +210,8 @@ public class GameManager : MonoBehaviour
                             if (x == randomOriginalx && y == randomOriginaly)
                             {
                                 Created.transform.tag = "Original";
-                                Created.ChangeSprite(0);
+                                if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                                else Created.ChangeSprite(0);
                             }
                             else
                             {
@@ -230,7 +234,8 @@ public class GameManager : MonoBehaviour
                             if (x == randomOriginalx && y == randomOriginaly)
                             {
                                 Created.transform.tag = "Original";
-                                Created.ChangeSprite(0);
+                                if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                                else Created.ChangeSprite(0);
                             }
                             else
                             {
@@ -252,7 +257,8 @@ public class GameManager : MonoBehaviour
                     {
                         Vector3 randomSpeed = new Vector3(Random.Range(-50 - quantity, 50 + quantity), Random.Range(-50 - quantity, 50 + quantity), 0);
                         Created.transform.tag = "Original";
-                        Created.ChangeSprite(0);
+                        if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                        else Created.ChangeSprite(0);
                         Created.AddMovement(randomSpeed);
                     }
                     else
@@ -277,7 +283,8 @@ public class GameManager : MonoBehaviour
                     {
                         Vector3 randomSpeed = new Vector3(sign * Random.Range(-50 - quantity, -20 - (quantity / 2)), sign * Random.Range(-50 - quantity, -20 - (quantity / 2)), 0);
                         Created.transform.tag = "Original";
-                        Created.ChangeSprite(0);
+                        if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                        else Created.ChangeSprite(0);
                         Created.AddMovement(randomSpeed);
                     }
                     else
@@ -303,7 +310,9 @@ public class GameManager : MonoBehaviour
                     {
                         Vector3 randomSpeed = new Vector3(randomSpeed2.x * 0.9f, 0);
                         Created.transform.tag = "Original";
-                        Created.ChangeSprite(0);
+                        //shiny Foob check
+                        if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                        else Created.ChangeSprite(0);
                         Created.AddMovement(randomSpeed);
                     }
                     else
@@ -329,7 +338,8 @@ public class GameManager : MonoBehaviour
                     {
                         Vector3 randomSpeed = new Vector3(0, randomSpeed2.y * 0.9f, 0);
                         Created.transform.tag = "Original";
-                        Created.ChangeSprite(0);
+                        if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                        else Created.ChangeSprite(0);
                         Created.AddMovement(randomSpeed);
                     }
                     else
@@ -353,7 +363,8 @@ public class GameManager : MonoBehaviour
                     {
                         
                         Created.transform.tag = "Original";
-                        Created.ChangeSprite(0);
+                        if (Random.Range(0, 4096) == 0) Created.ChangeSprite(6);
+                        else Created.ChangeSprite(0);
                         Created.spriteRenderer.sortingOrder = 1;
                         Created.AddMovement(randomSpeed);
                     }

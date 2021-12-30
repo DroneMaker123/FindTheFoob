@@ -15,6 +15,7 @@ public class SpriteConfig: MonoBehaviour
     public Sprite sprites4; //
     public Sprite sprites5; //
     public Sprite sprites6; //
+    public Sprite sprites7; //shiny original
 
 
     private void Update()
@@ -62,6 +63,9 @@ public class SpriteConfig: MonoBehaviour
                 break;
             case 5:
                 spriteRenderer.sprite = sprites6;
+                break;
+            case 6:
+                spriteRenderer.sprite = sprites7;
                 break;
         }
     }    
