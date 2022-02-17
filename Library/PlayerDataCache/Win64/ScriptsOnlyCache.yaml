@@ -772,7 +772,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 6a5f09e37bca5fb454b4dc72a5aaa9dd
+      Hash: eefd6c8f92fe5eaa2651b85f02d6e4e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpriteConfig
@@ -1183,4 +1183,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Level.unity
   - Assets/Scenes/Game Over.unity
-  playerPath: C:/Projects/FindTheFoob/Find Foob Free mode (1.01)/FindTheFoob.exe
+  playerPath: C:/Projects/FindTheFoob/Build/FindTheFoob.exe
